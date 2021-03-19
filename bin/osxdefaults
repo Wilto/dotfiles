@@ -33,6 +33,9 @@ defaults write NSGlobalDomain KeyRepeat -int 0
 # Finder: kill the desktop
 defaults write com.apple.finder CreateDesktop -bool true
 
+# Allow apps from anywhere
+sudo spctl --master-disable
+
 # Dock
 # ----------------------------------------------------------------------
 
